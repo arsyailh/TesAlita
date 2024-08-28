@@ -1,0 +1,43 @@
+/* custom.css */
+
+/* Styling untuk header */
+header {
+    background-color: #007bff; /* Warna latar belakang biru */
+    color: #ffffff; /* Warna teks putih */
+    padding: 2rem; /* Padding di sekitar header */
+    text-align: center; /* Teks rata tengah */
+}
+
+header h1 {
+    margin: 0; /* Hapus margin default dari elemen h1 */
+    font-size: 2rem; /* Ukuran font untuk h1 */
+    font-weight: 700; /* Berat font tebal */
+}
+
+
+
+.sidebar {
+    background-color: #245f9e; 
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .nav-link {
+    font-weight: bold;
+    color: #fdfdfd;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    margin: 10px;
+}
+
+.sidebar .nav-link:hover {
+    color: #3a3a3a;
+    background-color: #e9ecef;
+}
+
+/* Styling untuk konten utama */
+main {
+    background-color: #f1f3f5; /* Warna latar belakang konten utama */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem; /* Menambahkan padding pada konten utama */
+}
